@@ -1,0 +1,26 @@
+{
+  "name": "diverging-bar-chart",
+  "version": "1.0.0",
+  "description": "--- title: \"Translating Index to Chart Metric\" author: \"Marek Fajkus\" created: \"Tue Jan 10 2017 14:26:30 GMT+0100 (CET)\" show_footer: true ---",
+  "main": "README.md",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -f docs/index.html && node_modules/.bin/kajero html README.md > docs/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlobalWebIndex/diverging-bar-chart.git"
+  },
+  "author": "Marek Fajkus",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/GlobalWebIndex/diverging-bar-chart/issues"
+  },
+  "homepage": "https://github.com/GlobalWebIndex/diverging-bar-chart#readme",
+  "devDependencies": {
+    "kajero": "^0.2.0"
+  }
+}
